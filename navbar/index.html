@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Navbar</title>
+	<style>
+		*{
+			margin:0px;
+			padding: 0px;
+		}
+        .nav{
+        	background-color: gray;
+        	height: 50px;
+        	margin-top: 20px;
+
+        }
+        .nav .navbar{
+        	background-color: lightblue;
+        	margin: 0px auto;
+        	width: 1100px;
+        }
+        .nav .navbar ul{
+          list-style-type: none;
+       
+         
+        }
+        .nav .navbar ul li{
+         
+          float: left;
+         
+        }
+        .nav .navbar ul li a{
+          text-decoration: none;
+          color: black;
+          background-color: red;  
+          font-size: 20px; 
+          line-height: 50px;
+          padding: 15px;
+          transition: all linear .5s;
+           }
+           .nav .navbar ul li a:hover{
+          color: black;
+          background-color: white;  
+          font-size: 20px; 
+          font-weight: 800;
+           }
+          .nav .navbar ul li ul li{
+          	float: none;
+          }
+          .nav .navbar ul li ul li{
+          	display: none;
+          }
+          .nav .navbar ul li:hover ul li{
+          	display: block;
+          }
+          .nav .navbar ul li ul li a{
+          	padding: 13px;
+          background-color: lightblue;
+          font-size: 20px;
+          }
+          .paginate{
+          	margin: 0px auto;
+          	width: 500px;
+          	margin-top: 100px;
+
+          }
+          .paginate ul li{
+          	float: left;
+          }
+          .paginate ul {
+          	list-style-type: none;
+          }
+          .paginate ul li a{
+          text-decoration: none;
+          margin-right: 10px;
+          padding: 5px;
+          color: black;
+          }
+          .paginate ul li a:hover{
+          background-color: black;
+          color: white;
+          }
+          .paginate ul li .active{
+          	background-color: black;
+          color: white;
+          }
+ 	</style>
+</head>
+<body>
+	<section class="nav">
+	
+		 <div class="navbar">
+		 	
+		 	<ul>
+		 		<li><a href="">Home</a></li>
+		 		<li><a href="">About</a></li>
+		 		<li><a href="">Gallery</a>
+              <ul>
+              	<li><a href="">Home</a></li>
+		 		<li><a href="">About</a></li>
+              </ul>
+
+
+		 		</li>
+		 		<li><a href="">Contacts</a></li>
+		 	</ul>
+		 </div>
+
+
+	</section>
+
+
+<section class="paginate">
+	<ul>
+		<li><a href="">Previous Page</a></li>
+		<li><a href="" class="active">1</a></li>
+		<li><a href="">2</a></li>
+		<li><a href="">Next Page</a></li>
+	</ul>
+</section>
+
+
+
+</body>
+</html>
