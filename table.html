@@ -37,6 +37,21 @@
   background-color: white;
 }
 
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
     </style>
   </head>
   <body>
@@ -44,7 +59,7 @@
    <img src="img/pic1.png" alt="" width="150" height="100px">
  </div>
  <div class="line">
- <marquee> <h6 style="text-align: center;"><<<<<< Special offer upto 70% discount on Grocery items.....</h6></marquee>
+  <h6 style="text-align: center;"><<<<<< Special offer upto 70% discount on Grocery items.....</h6>
  </div>
 
 <div class="content">
@@ -56,28 +71,57 @@
   </li>
   <li class="nav-item">
     <a style="color: white;" class="nav-link" href="#">Products</a>
-    <a style="color: white;" class="nav-link" href="#">Grocery</a>
-    <a style="color: white;" class="nav-link" href="#">Dress</a>
-    <a style="color: white;" class="nav-link" href="#">Electronics</a>
      
   </li>
    
   <li class="nav-item">
-    <a style="color: white;" class="nav-link" href="login.html">Login</a>
+    <a style="color: white;" class="nav-link" href="#">Login</a>
   </li>
   <li class="nav-item">
-    <a style="color: white;" class="nav-link" href="register.html">Register</a>
+    <a style="color: white;" class="nav-link" href="#">Register</a>
   </li>
 </ul>
-  
 </div>
 
+
 <div class="main">
-  <img style="margin-top: 10px; margin-left: 30px;" src="img/pic2.jpg"  width="1150" height="100"><br>
-  <img src="img/pic4.jpg" alt="" width="400" height="200">
-   <img src="img/pic5.png" alt="" width="400" height="200">
-    <img src="img/pic3.jpg" alt="" width="400" height="200">
+  <h2 style="text-align: center; margin-top: 30px;">Grocery Items</h2>
+  <br>
+  <div>
+    <table>
+    <tr>
+      <th>Producr ID</th>
+      <th>Tittle</th>
+      <th>Seller</th>
+      <th>Price</th>
+      <th>Unit Available</th>
+    </tr>
+    <tr>
+      <td>A015</td>
+      <td>Rice-Premium</td>
+      <td>A-shop</td>
+      <td>50tk/Kg</td>
+      <td>1000Kg</td>
+    </tr>
+    <tr>
+      <td>A016</td>
+      <td>Soyabean Oil</td>
+      <td>B-shop</td>
+      <td>120tk/ltr</td>
+      <td>1200Ltr</td>
+    </tr>
+    <tr>
+      <td>B001</td>
+      <td>Lal Sak</td>
+      <td>C-shop</td>
+      <td>10tk</td>
+      <td>100 Unit</td>
+    </tr>
+  </table>
+  </div>
 </div>
+
+
  <footer style="">
    
  <h4 style="color: white; text-align: center;">©probhu prosad borman 172-15-1560_2021</h4>
